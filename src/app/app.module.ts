@@ -7,6 +7,10 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { FondoComponent } from './shared/fondo/fondo.component';
+import { AboutComponent } from './pages/about/about.component';
+import { AttorneysComponent } from './pages/attorneys/attorneys.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { PracticeAreasComponent } from './pages/practice-areas/practice-areas.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { FondoComponent } from './shared/fondo/fondo.component';
     HeaderComponent,
     FooterComponent,
     InicioComponent,
-    FondoComponent
+    FondoComponent,
+    AboutComponent,
+    AttorneysComponent,
+    ContactComponent,
+    PracticeAreasComponent
   ],
   imports: [
     BrowserModule,
