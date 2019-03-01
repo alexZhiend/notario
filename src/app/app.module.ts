@@ -11,6 +11,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { AttorneysComponent } from './pages/attorneys/attorneys.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { PracticeAreasComponent } from './pages/practice-areas/practice-areas.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PracticeAreasComponent } from './pages/practice-areas/practice-areas.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

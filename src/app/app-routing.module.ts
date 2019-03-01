@@ -7,17 +7,17 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { PracticeAreasComponent } from './pages/practice-areas/practice-areas.component';
 
 const routes: Routes = [
-  {path: '', component: InicioComponent},
+  {path: 'inicio', component: InicioComponent},
   {path: 'about', component: AboutComponent},
   {path: 'attorneys', component: AttorneysComponent},
   {path: 'contact', component: ContactComponent},
-  {path: 'practice_areas', component: PracticeAreasComponent},
-  {path: '**',  pathMatch: 'full', redirectTo: ''}
+  {path: 'practice-areas', component: PracticeAreasComponent},
+  {path: '**',  pathMatch: 'full', redirectTo: 'inicio'}
 
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule]
 })
 
