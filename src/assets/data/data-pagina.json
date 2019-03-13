@@ -1,10 +1,74 @@
 {
  "titulo": "O&Y Abogados y Asociados",
- "email": "",
- "facebook":"",
- "celular":"",
- "descripcion":"",
- "slogan":"",
- "equipo_trabajo":[]
+ "email": "asociadosoriundo@hotmail.com",
+ "facebook":"https://www.facebook.com/419473448255839/photos/d41d8cd9/600333176836531/",
+ "celular":"973969740",
+ "descripcion":"La Firma consiente de las necesidades de las empresas en un mundo globalizado, ha trazado un verdadero Norte en cuanto a la Integración de servicios profesionales de calidad y la formación profesional de su colaboradores encaminados a garantizarle, mediante la atención oportuna y eficaz, la Seguridad Jurídica que su empresa necesita.",
+ "direccion":"Av. San Lorenzo N° 476 - SAN JUAN BAUTISTA HUAMANGA - Ayacucho",
+ "slogan":"¡SU CAMINO A LA SEGURIDAD JURÍDICA COMIENZA AQUÍ!",
+ "equipo_trabajo":{"abogado1":
+    {"nombre":"Ivan Oriundo Yaranga",
+    "especialidad":"Abogado",
+    "descripcion":"Ivan Oriundo Yaranga - Abogado."},
+    "abogado2":
+    {"nombre":"Roberto Oriundo Yaranga",
+    "especialidad":"Abogado Civil",
+    "descripcion":"Especialidad en abogacia Civil con larga trayectoria y experiencia laboral."},
+    "abogado3":
+    {"nombre":"Angela Roxana Curi Prado",
+    "especialidad":"Abogada",
+    "descripcion":"Abogada con buena experiencia laboral, responsabilidad y ética profesional."},
+    "abogado4":
+    {"nombre":"Maribel Oriundo Yaranga",
+    "especialidad":"Abogada",
+    "descripcion":"Abogada calificada con alta experiencia laboral, responsabilidad, integridad y ética profesional."},
+    "abogado5":
+    {"nombre":"Carmen Palomino Paredes",
+    "especialidad":"Abogada",
+    "descripcion":"Abogada con buena experiencia laboral, responsabilidad y ética profesional."},
+    "abogado6":
+    {"nombre":"Estudio Juridico",
+    "especialidad":"Abogados calificados",
+    "descripcion":"Abogados entregados en servicio de la comunidad Ayacuchana, cumpliendo sus funciones con integridad y transparencia."}
+},
+
+"especialidades":{
+    "esp1":{
+        "nombre":"Penal"
+    },
+    "esp2":{
+        "nombre":"Civil"
+    },
+    "esp3":{
+        "nombre":"Derecho minero"
+    },
+    "esp4":{
+        "nombre":"Derecho ambiental"
+    },
+    "esp5":{
+        "nombre":"Derecho laboral"
+    },
+    "esp6":{
+        "nombre":"Derecho comercial"
+    },
+    "esp7":{
+        "nombre":"Registral en inmobiliario"
+    },
+    "esp8":{
+        "nombre":"Marcas y Patentes"
+    },
+    "esp9":{
+        "nombre":"Arbitraje y conciliación"
+    },
+    "esp10":{
+        "nombre":"Contrataciones con el Estado"
+    },
+    "esp11":{
+        "nombre":"Recuperación de Crédito"
+    }
+},
+
+
+"fijo":"066 32-6915"
 
 }

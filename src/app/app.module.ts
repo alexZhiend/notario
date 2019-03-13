@@ -13,6 +13,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { PracticeAreasComponent } from './pages/practice-areas/practice-areas.component';
 import { HttpClientModule } from '@angular/common/http';
 
+
 @NgModule({
   declarations: [
     AppComponent,

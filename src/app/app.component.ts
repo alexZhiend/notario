@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { InfopaginaService } from './services/infopagina.service';
+import { environment } from '../environments/environment';
+import * as mapboxgl from 'mapbox-gl';
 
 @Component({
   selector: 'app-root',
@@ -12,5 +14,4 @@ export class AppComponent {
   constructor( public infopaginaService: InfopaginaService ) {
 
   }
-
 }

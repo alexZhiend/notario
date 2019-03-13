@@ -3,9 +3,8 @@
         <div class="row mb-1">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">O&M Abogados y Asociados</h2>
-              <p>La Firma consiente de las necesidades de las empresas en un mundo globalizado, ha trazado un verdadero Norte en cuanto a la Integración de servicios profesionales de calidad y la formación profesional de su colaboradores encaminados a garantizarle, mediante la atención oportuna y eficaz, la Seguridad Jurídica que su empresa necesita.
-              </p>
+              <h2 class="ftco-heading-2">{{ Servicio.info.titulo }}</h2>
+              <p>{{Servicio.info.descripcion}}</p>
               
               
             </div>
@@ -51,10 +50,10 @@
             	<h2 class="ftco-heading-2">Consultas  a: </h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">Av. San Lorenzo N°476, Ayacucho - Perú</span></li>
-	                <li><a routerLink="contact"><span class="icon icon-phone"></span><span class="text">988 600 818</span></a></li>
-                  <li><a routerLink="contact"><span class="icon icon-envelope"></span><span class="text">O&M@gmail.com</span></a></li>
-                  <li><a href="https://www.facebook.com/Oriundo-Yaranga-Abogados-Asociados-SAC-419473448255839/"><span class="icon icon-facebook-f"></span><span class="text">Visita nuestro Facebook</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">{{Servicio.info.direccion}}</span></li>
+	                <li><a routerLink="contact"><span class="icon icon-phone"></span><span class="text">{{Servicio.info.celular}}</span></a></li>
+                  <li><a href="mailTo:{{Servicio.info.email}}"><span class="icon icon-envelope"></span><span class="text">{{Servicio.info.email}}</span></a></li>
+                  <li><a [href]="Servicio.info.facebook"><span class="icon icon-facebook-f"></span><span class="text">Visita nuestro Facebook</span></a></li>
   	              </ul>
 	            </div>
             </div>
